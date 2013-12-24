@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 
-### John Slee Wed 25 Dec 2013 01:42:33 EST
+### John Slee <john@sleefamily.org>
+### Wed 25 Dec 2013 01:42:33 EST
 ### Released into the public domain.
 
 use strict;
@@ -19,7 +20,6 @@ my $top = qq(
 #ifndef $include_guard_symbol
 #define $include_guard_symbol
 
-#include <stdint.h>
 #include <avr/pgmspace.h>
 
 #define STABX_ITEM(item,content) prog_char STAB_##item [] PROGMEM = content

@@ -3,7 +3,6 @@
 #ifndef IG_PGM_STRING_TABLE_H
 #define IG_PGM_STRING_TABLE_H
 
-#include <stdint.h>
 #include <avr/pgmspace.h>
 
 #define STABX_ITEM(item,content) prog_char STAB_##item [] PROGMEM = content
